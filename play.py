@@ -16,8 +16,3 @@ for e in L:
 	money = int(e[index+1:].strip())
 	P.append(Player(name, money))
 
-
-def play_game(n):
-    '''n is the number of time marriage is Played.'''
-    
-    
